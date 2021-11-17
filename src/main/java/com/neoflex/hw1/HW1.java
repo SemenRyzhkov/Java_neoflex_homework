@@ -1,4 +1,4 @@
-package com.neoflex;
+package com.neoflex.hw1;
 
 public class HW1 {
     boolean isActive = false;
@@ -13,6 +13,7 @@ public class HW1 {
 
 
     public static void main(String[] args) {
+        isLeapYear(6666);
     }
 
     private static int calc(int a, int b, int c, int d) {
