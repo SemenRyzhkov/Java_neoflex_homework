@@ -1,7 +1,11 @@
 package com.neoflex.hw2.task2;
 
-public class Point implements Figure{
-    private static final int POINT_PARAMETER = 0;
+public class Line implements Figure{
+    private final int length;
+
+    public Line(int length) {
+        this.length = length;
+    }
 
     @Override
     public void getParameters() {
@@ -17,10 +21,10 @@ public class Point implements Figure{
     }
 
     private int getLineLength(){
-        return POINT_PARAMETER;
+        return this.length;
     }
 
     private int getSquare(){
-        return POINT_PARAMETER;
+        return 0;
     }
 }
