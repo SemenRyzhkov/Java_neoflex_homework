@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Neoflex_java_home_work" />
+        <module name="Java_neoflex_homework" />
       </profile>
     </annotationProcessing>
   </component>
